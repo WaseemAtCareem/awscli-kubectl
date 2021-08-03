@@ -1,9 +1,7 @@
 FROM alpine
 
-MAINTAINER Vasco Santos <jvosantos@gmail.com>
-
-ARG AWS_VERSION="1.17.3"
-ARG KUBE_VERSION="v1.17.1"
+ARG AWS_VERSION="2.1.29"
+ARG KUBE_VERSION="v1.21.0"
 
 RUN apk update \
  &&  apk add ca-certificates curl py-pip py2-pip \
